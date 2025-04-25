@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLocator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<style>
+    body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+   #nav{
+     height: 40px;
+     border: 5px solid rgb(242, 9, 87);
+     
+     
+   }
+   #a{
+    text-decoration: none;
+    padding-left: 20px;
+    float: right;
+    padding-top: 10px;
+    color: brown;
+    font-size: 25px;
+    margin-right: 10px;
+   }
+   #courses{
+    border: 15px groove cornflowerblue;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   }
+   #cards{
+    
+    width: 260px;
+    height: 370px;
+    
+   }
+
+   #cards:hover{
+    border: 5px solid whitesmoke;
+    box-shadow: 2px 3px grey;
+   }
+   #kphb,#Ameerpet,#dilsukhnagar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px groove purple;
+    height:500px;
+    flex-wrap: nowrap;   
+   }
+   #card{
+    height: 470px;
+    border:3px solid dodgerblue;
+    padding-top: 3px;
+    width:250px;
+   }
+  
+   #card:hover{
+    box-shadow: 2px 3px whitesmoke;
+    border: 8px groove grey;
+   }
+   #main{
+      background-color:black;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      height:300px;
+   }
+   summary:hover{
+        color: forestgreen;
+   }
+   .footer{
+    color: white;
+    margin-left: 12px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: larger;
+   }
+
+</style>
+<body>
+    <div id="nav">
+        <h1 style="color: green; display: inline;"><span style="color:red;">Edu</span>Locator</h1>
+        <a href="#main" id="a">About Us</a>
+        <a href="#courses" id="a">Courses</a>
+        <a href="Login.html" id="a">Register</a>
+    </div><br><br>
+
+    <div id="courses">
+        <div id="cards">
+            <img src="images/JFS.jpg" alt="" height="200px" width="250px">
+            <center><h1 style="color:firebrick;">Java FullStack</h1>
+            <a href="#dilsukhnagar" style="font-size: large;float: center;padding-right: 5px;">Dilsukhnagar</a>
+            <a href="#Ameerpet"style="font-size: large;float:center;padding-right: 5px;">Ameerpet</a>
+            <a href="#kphb"style="font-size: large;float:center;padding-right: 5px;">KPHB</a></center>
+        </div>
+
+        <div id="cards">
+            <img src="images/PFS.jpg" alt="" height="200px" width="250px">
+            <center><h1 style="color:firebrick;">Python FullStack</h1>
+            <a href="#dilsukhnagar" style="font-size: large;float: center;padding-right: 5px;">Dilsukhnagar</a>
+            <a href="#Ameerpet"style="font-size: large;float:center;padding-right: 5px;">Ameerpet</a>
+            <a href="#kphb"style="font-size: large;float:center;padding-right: 5px;">KPHB</a></center>
+        </div>
+
+        <div id="cards">
+            <img src="images/devops.png" alt="" height="200px" width="250px">
+            <center><h1 style="color:firebrick;">Devops</h1>
+            <a href="#Ameerpet"style="font-size: large;float:center;padding-right: 5px;">Ameerpet</a>
+            <a href="#kphb"style="font-size: large;float:center;padding-right: 5px;">KPHB</a></center>
+        </div>
+
+        <div id="cards">
+            <img src="images/Testing.jpg" alt="" height="200px" width="250px">
+            <center><h1 style="color:firebrick;">Software Testing</h1>
+            <a href="#dilsukhnagar" style="font-size: large;float: center;padding-right: 5px;">Dilsukhnagar</a>
+            <a href="#Ameerpet"style="font-size: large;float:center;padding-right: 5px;">Ameerpet</a>
+           </center>
+        </div>
+
+        <div id="cards">
+            <img src="images/data Science.jpg" alt="" height="200px" width="250px">
+            <center><h1 style="color:firebrick;">Data Science</h1>
+            <a href="#dilsukhnagar" style="font-size: large;float: center;padding-right: 5px;">Dilsukhnagar</a>
+            <a href="#Ameerpet"style="font-size: large;float:center;padding-right: 5px;">Ameerpet</a>
+            <a href="#kphb"style="font-size: large;float:center;padding-right: 5px;">KPHB</a></center>
+        </div>
+    </div><br><br>
+
+    <h1 style="color:blueviolet;text-decoration:3px underline green;">KPHB</h1><br><br>
+    <div id="kphb">
+        <div id="card">
+            <center>
+            <img src="images/teks.png" alt="" height="190px" width="200px">
+            <details>
+                <summary>Courses Offered</summary>
+                <ul>
+                    <li>Full Stack Java</li>
+                    <li>Full Stack Python</li>
+                    <li>Data Science</li>
+                    <li>AWS Devops</li>
+                </ul>
+            </details>
+            <h4>Contact:</h4>
+            <p> 1800-120-4748<br>
+               <a href="support@teksacademy.com">support@teksacademy.com</a></p>
+               <p>To know more :</p>
+               <a href="https://teksacademy.com/" target="_blank">https://teksacademy.com</a>
+            </center>
+        </div>
+
+        <div id="card">
+            <center>
+            <img src="images/v cube.png" alt="" height="190px" width="200px">        
+            <details>
+                <summary>Courses Offered</summary>
+                <ul>
+                    <li>Full Stack Java</li>
+                    <li>Full Stack Python</li>
+                    <li>Data Science</li>
+                    <li>Microsoft Azure</li>
+                </ul>
+            </details>
+            <h4>Contact:</h4>
+            <p> +91 7675070124, +91 9059456742<br>
+                <a href="vcubesoftwaresolutions@gmail.com">vcubesoftwaresolutions@gmail.com</a></p>
+                <p>To know more :</p>
+                <a href="https://www.vcubesoftsolutions.com" target="_blank">https://www.vcubesoftsolutions.com</a>
+            </center>
+        </div>
+
+        <div id="card">
+            <center>
+            <img src="images/q Spiders.jpeg" alt="" height="190px" width="200px">          
+            <details>
+                <summary>Courses Offered</summary>
+                <ul>
+                    <li>Full Stack Java</li>
+                    <li>Full Stack Python</li>
+                    <li>Software Testing</li>
+                    <li>AWS Devops</li>
+                </ul>
+            </details>
+            <h4>Contact:</h4>
+            <p>
+                9686111919, 9686700500,<br>
+                <a href="enquiry@qspiders.com">enquiry@qspiders.com</a></p>
+                <p>To know more :</p>
+                <a href="https://qspiders.com" target="_blank">https://qspiders.com</a>
+            </center>
+            </div>
+
+        <div id="card">
+            <center>
+            <img src="images/SSSIT.png" alt="" height="190px" width="200px">          
+            <details>
+                <summary>Courses Offered</summary>
+                <ul>
+                    <li>Full Stack Java</li>
+                    <li>Full Stack Python</li>
+                    <li>Software Testing</li>
+                    <li>AWS Devops</li>
+                </ul>
+            </details>
+            <h4>Contact:</h4>
+            <p>  9866144861 , 7032703254<br>
+               <a href=" admin@sssit.info"> admin@sssit.info</a>  </p>
+               <p>To know more :</p>
+               <a href="https://www.sssit.info" target="_blank">https://www.sssit.info</a>
+            </center>
+            </div>
+
+        <div id="card">
+            <center>
+            <img src="images/naresh IT.png" alt="" height="190px" width="200px">
+            <details>
+                <summary>Courses Offered</summary>
+                <ul>
+                    <li>Full Stack Java</li>
+                    <li>Full Stack Python</li>
+                    <li>Data Science</li>
+                    <li>AWS Devops</li>
+                </ul>
+            </details>
+            <h4>Contact:</h4>
+            <p>  040-23746666<br>
+                <a href=" info@nareshit.com"> info@nareshit.com</a> </p>
+                <p>To know more :</p>
+                <a href="https://nareshit.in/" target="_blank">https://nareshit.in</a>
+            </center>
+            </div>
+    </div><br><br>
+
+    <h1 style="color:blueviolet;text-decoration:3px underline green;">Ameerpet</h1><br><br>
+    <div id="Ameerpet">
+        <div id="card">
+            <center>
+            <img src="images/naresh IT.png" alt="" height="190px" width="200px">
+            <details>
+                <summary>Courses Offered</summary>
+                <ul>
+                    <li>Full Stack Java</li>
+                    <li>Full Stack Python</li>
+                    <li>Data Science</li>
+                    <li>AWS Devops</li>
+                </ul>
+            </details>
+            <h4>Contact:</h4>
+            <p>  040-23746666<br>
+                <a href=" info@nareshit.com"> info@nareshit.com</a> </p>
+                <p>To know more :</p>
+                <a href="https://nareshit.in" target="_blank">https://nareshit.in</a>
+            </center>
+            </div>
+
+        <div id="card">
+            <center>
+                <img src="images/durga soft.png" alt="" height="190px" width="200px">
+                <details>
+                    <summary>Courses Offered</summary>
+                    <ul>
+                        <li>Full Stack Java</li>
+                        <li>Full Stack Python</li>
+                        <li>Oracle</li>
+                        <li>API Testing</li>
+                    </ul>
+                </details>
+                <h4>Contact:</h4>
+                <p> +91-9927372737, +91-8885252627<br>
+                    <a href=" durgasoftonline@gmail.com"> durgasoftonline@gmail.com</a> </p>
+                    <p>To know more :</p>
+                    <a href="https://www.durgasoftonline.com" target="_blank">https://www.durgasoftonline.com</a>
+            </center>
+         </div>
+
+         <div id="card">
+            <center>
+            <img src="images/v cube.png" alt="" height="190px" width="200px">        
+            <details>
+                <summary>Courses Offered</summary>
+                <ul>
+                    <li>Full Stack Java</li>
+                    <li>Full Stack Python</li>
+                    <li>Data Science</li>
+                    <li>Microsoft Azure</li>
+                </ul>
+            </details>
+            <h4>Contact:</h4>
+            <p> +91 7675070124, +91 9059456742<br>
+                <a href="vcubesoftwaresolutions@gmail.com">vcubesoftwaresolutions@gmail.com</a></p>
+                <p>To know more :</p>
+                <a href="https://www.vcubesoftsolutions.com" target="_blank">https://www.vcubesoftsolutions.com</a>
+            </center>
+        </div>
+
+        <div id="card">
+            <center>
+                <img src="images/CRS.avif" alt="" height="190px" width="200px">
+                <details>
+                    <summary>Courses Offered</summary>
+                        <ul>
+                            <li>Sales Force</li>
+                            <li>React JS</li>
+                            <li>Java</li>
+                            <li>Devops</li>
+                        </ul>
+                </details>
+                        <h4>Contact:</h4>
+                        <p>  +91 93478 54179 , 7013283324<br>
+                            <a href=" crsinfosolutions.com"> crsinfosolutions@gmail.com</a> </p>
+                            <p>To know more :</p>
+                            <a href="https://www.crsinfosolutions.com" target="_blank">https://www.crsinfosolutions.com</a>
+            </center>
+        </div>
+
+        
+
+        <div id="card">
+            <center>
+                <img src="images/cistotech.jpg" alt="" height="190px" width="250px">
+                    <details>
+                         <summary>Courses Offered</summary>
+                        <ul>
+                            <li>AutoCAD</li>
+                            <li>Staad Pro</li>
+                            <li>Revit Architecture</li>
+                            <li> ETabs</li>
+                        </ul>
+                    </details>
+                        <h4>Contact:</h4>
+                        <p>  099497 00073<br>
+                                <a href=" cistotech.com"> cistotech.com</a> </p>
+                                <p>To know more :</p>
+                                <a href="https://collegedunia.com/institute/2659-cistotech-hyderabad" target="_blank">https://collegedunia.com/institute/2659-cistotech-hyderabad</a>
+            </center>
+        </div>
+    </div><br><br>
+
+    <h1 style="color:blueviolet;text-decoration:3px underline green;">Dilsukhnagar</h1><br><br>
+   <div id="dilsukhnagar">
+    <div id="card">
+        <center>
+            <img src="images/mind q.png" alt="" height="150px" width="220px">
+                <details>
+                     <summary>Courses Offered</summary>
+                    <ul>
+                        <li>AWS</li>
+                        <li>Devops</li>
+                        <li>Python</li>
+                        <li>Power BI</li>
+                    </ul>
+                </details>
+                    <h4>Contact:</h4>
+                    <p>  +91-8978945209<br>
+                            <a href=" online@mindqsystems.com">online@mindqsystems.com</a> </p>
+                            <p>To know more :</p>
+                            <a href="https://mindqsystems.com" target="_blank">https://mindqsystems.com</a>
+        </center>
+    </div>
+
+    <div id="card">
+        <center>
+        <img src="images/teks.png" alt="" height="190px" width="200px">
+        <details>
+            <summary>Courses Offered</summary>
+            <ul>
+                <li>Full Stack Java</li>
+                <li>Full Stack Python</li>
+                <li>Data Science</li>
+                <li>AWS Devops</li>
+            </ul>
+        </details>
+        <h4>Contact:</h4>
+        <p> 1800-120-4748<br>
+           <a href="support@teksacademy.com">support@teksacademy.com</a></p>
+           <p>To know more :</p>
+           <a href="https://teksacademy.com" target="_blank">https://teksacademy.com</a>
+        </center>
+    </div>
+    <div id="card">
+        <center>
+            <img src="images/DIIT.jpeg" alt="" height="150px" width="220px">
+                <details>
+                     <summary>Courses Offered</summary>
+                    <ul>
+                        <li>.Net</li>
+                        <li>Java</li>
+                        <li>Oracle</li>
+                    </ul>
+                </details>
+                    <h4>Contact:</h4>
+                    <p>  07942685954<br>
+                            <a href="  DIIT112@.com">DIIT112@.com</a> </p>
+                            <p>To know more :</p>
+                            <a href="https://www.asklaila.com/diit-software-development-and-training-centre/" target="_blank">https://www.asklaila.com/diit-software-development-and-training-centre</a>
+        </center>
+    </div>
+    <div id="card">
+        <center>
+            <img src="images/apec.jpg" alt="" height="190px" width="250px">
+                <details>
+                     <summary>Courses Offered</summary>
+                    <ul>
+                        <li>DSA</li>
+                        <li>Oracle</li>
+                        <li>.Net</li>
+                        <li>Java</li>
+                    </ul>
+                </details>
+                    <h4>Contact:</h4>
+                    <p> +91 7671043906<br>
+                            <a href="info@apectraining.com">info@apectraining.com</a> </p>
+                            <p>To know more :</p>
+                            <a href="https://apectraining.com" target="_blank">https://apectraining.com</a>
+        </center>
+    </div>
+   </div>
+   <br><br>
+   <div style="background-color: black;height: 40px;">
+    <center><a href="#nav" style="color: white;text-decoration: none;padding-top: 25px;font-size: xx-large;">Back To Top</a></center>
+   </div><br>
+   <div id="main">
+    
+    <div id="main2">
+      <h1>Connect With Us</h1>
+      <p style="display: inline;font-size: large">Facebook</p>
+      <a href="https://www.facebook.com" target="_blank" class="footer">
+        <i class="fab fa-facebook-f"></i>
+      </a><br><br>
+      <p style="display: inline;font-size: large;">Instagram</p>
+      <a href="https://www.instagram.com" target="_blank" class="footer">
+        <i class="fab fa-instagram"></i>
+      </a><br><br>
+      
+      <p style="display: inline;font-size: large">Twitter</p>
+      <a href="https://www.twitter.com" target="_blank" class="footer">
+        <i class="fab fa-twitter"></i>
+      </a>
+
+      <p>Call : 040-3211489123</p>
+    </div>
+   
+    <div id="main2">
+      <h1>Let Us Help You</h1>
+      <p>Your Account</p>     
+      <p>Help</p>
+    </div>
+
+
+
+
+  </div>
+  
+
+
+
+</body>
+</html>
